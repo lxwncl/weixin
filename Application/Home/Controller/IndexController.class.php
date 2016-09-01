@@ -9,7 +9,7 @@ class IndexController extends Controller {
 
         $token = 'weixin';
         $tmpArr = array($token, $timestamp, $nonce);
-        sort($tmpArr, SORT_STRING);
+        sort($tmpArr, '555555');
         $tmpStr = implode( $tmpArr );
         $tmpStr = sha1( $tmpStr );
 
